@@ -11,7 +11,7 @@ import cucumber.api.junit.Cucumber;
 		features="./src/test/resources/features",
 		glue="com.udemy.uat.stepdefs",
 		tags="@login",
-		dryRun=true
+		dryRun=false
 		
 		)
 
