@@ -1,4 +1,4 @@
-@login @smoke @regression
+@smoke @regression
 Feature: Log in function 
 
 Scenario: Log in functionality works 
