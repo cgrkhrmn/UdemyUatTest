@@ -48,7 +48,7 @@ public class SignUpStepDefinitions {
 	public void user_should_be_able_to_signup_successfully() throws Throwable {
 		WebDriverWait wait=new WebDriverWait(Driver.getInstance(), 20);
 	    wait.until(ExpectedConditions.visibilityOf(homePage.fullName));
-	    Assert.assertEquals(homePage.fullName, "Hasan Huseyin");
+	    Assert.assertEquals(homePage.fullName.getText(), "Hasan Huseyin");
 	}
 
 

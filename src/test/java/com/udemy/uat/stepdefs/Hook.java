@@ -1,4 +1,4 @@
-package com.udemy.uat.utilities;
+package com.udemy.uat.stepdefs;
 
 import java.util.concurrent.TimeUnit;
 
@@ -26,7 +26,7 @@ public class Hook {
 			
 			scenario.embed(screenshot, "image/png");
 		}
-		Driver.getInstance().close();
+		Driver.closeDriver();
 	}
 
 }
