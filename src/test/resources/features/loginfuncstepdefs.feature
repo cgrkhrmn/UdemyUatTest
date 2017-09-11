@@ -1,4 +1,4 @@
-@regression
+@login
 Feature: Log in function 
 
 Scenario: Log in functionality works 

@@ -10,7 +10,7 @@ import cucumber.api.junit.Cucumber;
 		plugin={"html:target/cucumber-reports", "json:target/cucumber.json"},
 		features="./src/test/resources/features",
 		glue="com.udemy.uat.stepdefs",
-		tags="@smoke",
+		tags="@signup",
 		dryRun=false
 		
 		)

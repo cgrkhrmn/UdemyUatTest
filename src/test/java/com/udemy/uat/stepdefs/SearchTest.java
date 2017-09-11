@@ -41,6 +41,9 @@ public class SearchTest {
 	public void user_should_be_able_to_see_expected_results() throws Throwable {
 	   WebDriverWait wait=new WebDriverWait(Driver.getInstance(), 20);
 	   wait.until(ExpectedConditions.visibilityOf(search.searchItemName));
+	   System.out.println(search.searchItemName);
+	   System.out.println(search.searchItemName.getText());
+	   wait.until(ExpectedConditions.visibilityOf(search.searchItemName));
 	   Assert.assertTrue(search.searchItemName.getText().contains("selenium"));
 	   
 	}
