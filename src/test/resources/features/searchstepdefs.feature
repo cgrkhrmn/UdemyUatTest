@@ -1,4 +1,4 @@
-@Search @smoke
+@search @smoke
 Feature: Searh functionality 
 
 Scenario: Search functionality check
